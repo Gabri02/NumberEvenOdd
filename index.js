@@ -10,15 +10,15 @@ form.addEventListener("submit", function(event){
 
 btn.addEventListener("click", ()=> {
     if(input1.value === "" ){
-        result.innerHTML = "il campo è vuoto";
+        result.innerHTML = "Is Void...";
     }
     else if(isNaN(input1.value)){
-        result.innerHTML = "Inserisci un numero!!!";
+        result.innerHTML = "Insert a Number!!!";
     }
     else if (input1.value % 2 === 0){
-        result.innerHTML = "Pari";
+        result.innerHTML = "Even";
     }
     else {
-        result.innerHTML = "Dispari";
+        result.innerHTML = "Odd";
     }
 });
